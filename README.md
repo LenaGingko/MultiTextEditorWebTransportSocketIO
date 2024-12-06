@@ -5,7 +5,9 @@ I used the chrome browser.
 How to start: 
 First, generate key.pem and cert.pem with ./generate_keys.sh in GIT_BASH
 
-Second, run in server directory: node server.js
+Second, create .env file with desired LOCAL_IP=***.***.*.***
+
+Third, run in server directory: node server.js
 
 open the chrome browser by running open_browser.sh (chrome should be in the path variables for that)
 
